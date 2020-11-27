@@ -1,4 +1,4 @@
-package sanke;
+package snake;
 
 import java.util.*;
 import java.util.Random;
