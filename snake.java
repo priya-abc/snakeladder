@@ -35,12 +35,16 @@ public class snake {
     		System.out.println("position is:" +position);
     		System.out.println("in case of snake the player moves behind by no of position");
     	break;
-    	    	
-    	
-    	    		
+    	case 2:
+               if(position==100)
+               System.out.println("Reached 100 Successfully");
+        break;
     	default:
     		
     		System.out.println("no operation");
     		break;
-    		
+    		}
+          }
+      }
+}
     	    	
