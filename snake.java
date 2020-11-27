@@ -84,3 +84,14 @@ public static void main(String[] args, java.lang.Object roll) {
 	player1(roll);
 	player2(diceRoll2);
 	}
+if(endgame1==100) {
+	System.out.println("Player1 has won: ");
+	System.out.println("The number of times the dice was rolled " +count1 +" times");
+	}
+	else if(endgame2==100) {
+		System.out.println("Player2 has won: ");
+		System.out.println("The number of times the dice was rolled " +count2 +" times");
+	}
+	else
+		System.out.println("Bad luck");
+}
