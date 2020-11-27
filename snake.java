@@ -14,10 +14,13 @@ public class snake {
     {
     System.out.println("Welcome to snake ladder game");
     
-Random random = new Random();
+        Random random = new Random();
     	int diceRoll1 = random.nextInt(6+1);
     	System.out.println("num is:" + diceRoll1);
-int a=random.nextInt(3);
+        
+        
+        while(position<100) {
+        int a=random.nextInt(3);
     	System.out.println("case is:" +a);
     	switch(a) {
     	case 0:
