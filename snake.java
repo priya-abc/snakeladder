@@ -43,6 +43,24 @@ public class snake {
     		
     		System.out.println("no operation");
     		break;
+
+   		}
+             public void player1()
+              {
+    		if(currentPlayer == -1)
+    		{
+    			
+    		 	player1 = calculatePlayerValue(player1, diceRoll1);
+    			System.out.println("First Player :: " + player1);
+    			System.out.println("Second Player :: " + player2);
+                   else{
+		
+		
+		
+		         player2 = calculatePlayerValue(player2,diceRoll1);
+		         System.out.println("First Player :: " + player1);
+		         System.out.println("Second Player :: " + player2);
+		         System.out.println("------------------");
     		}
           }
       }
