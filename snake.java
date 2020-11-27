@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Random;
 public class snake {
 	int startgame=0;
-    int endgame=0;
+        int endgame=0;
     static int player1=0;
     static int player2=0;
     static int currentPlayer=-1;
@@ -14,7 +14,7 @@ public class snake {
     {
     System.out.println("Welcome to snake ladder game");
     
-Random random = new Random();
+        Random random = new Random();
     	int diceRoll1 = random.nextInt(6+1);
     	System.out.println("num is:" + diceRoll1);
         int a=random.nextInt(3);
