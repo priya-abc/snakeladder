@@ -14,3 +14,7 @@ public class snake {
     {
     System.out.println("Welcome to snake ladder game");
     
+Random random = new Random();
+    	int diceRoll1 = random.nextInt(6+1);
+    	System.out.println("num is:" + diceRoll1);
+    	
